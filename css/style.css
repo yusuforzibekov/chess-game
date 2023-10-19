@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px;
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+caption {
+    font-size: 50px;
+}
+
+td {
+    width: 55px;
+    height: 55px;
+}
+
+table {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    color: #fff;
+    background: #000;
+    cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.pieces {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.black .pieces{
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.name {
+    border: none;
+    height: 0;
+    width: 0;
+}
+
+.white {
+    background: #fff;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.white:hover, .black:hover{
+    border: 4px solid blue;
+}
+
+.brown {
+    background: #000;
+}
+
+.black {
+    background: rgb(88, 84, 84);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.light {
+    background: #fff;
+}
