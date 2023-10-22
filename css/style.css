@@ -6,13 +6,13 @@
     list-style: none;
 }
 
-body{
+body {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.btn{
+.btn {
     padding: 15px;
     cursor: pointer;
 }
@@ -56,7 +56,7 @@ table {
     margin: 0 auto;
 }
 
-.black .pieces{
+.black .pieces {
     width: 80%;
     height: 80%;
     border: none;
@@ -76,20 +76,27 @@ table {
     transform: scale(1);
 }
 
-.white:hover, .black:hover{
+.white:hover,
+.black:hover {
     border: 4px solid blue;
 }
 
 .brown {
     background: #000;
+    cursor: pointer;
 }
 
 .black {
     background: rgb(88, 84, 84);
     z-index: 999;
     cursor: pointer;
+    position: relative;
 }
 
 .light {
     background: #fff;
+}
+
+.brown:hover {
+    border: 4px solid lime;
 }
